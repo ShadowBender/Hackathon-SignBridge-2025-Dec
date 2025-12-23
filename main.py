@@ -4,7 +4,7 @@ import numpy as np
 from Sign_Detector import HandSignDetector
 
 def main():
-    cap = cv2.VideoCapture(1)
+    cap = cv2.VideoCapture(0)
     detector = HandSignDetector()
     
     # UI State variables
