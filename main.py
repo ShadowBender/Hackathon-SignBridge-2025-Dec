@@ -113,5 +113,9 @@ def main():
     cap.release()
     cv2.destroyAllWindows()
 
+# Run the app
+# Set-ExecutionPolicy Unrestricted -Scope Process
+# .\venv\Scripts\Activate.ps1
+
 if __name__ == "__main__":
     main()
